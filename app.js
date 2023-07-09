@@ -132,7 +132,7 @@ function getProductFromStorage(){
 function loadCart(){
     let products = getProductFromStorage();
     if(products.length < 1){
-        cartItemID = 1; // if there is no any product in the local storage
+        cartItemID = 1; // if there is no  product in the local storage
     } else {
         cartItemID = products[products.length - 1].id;
         cartItemID++;
