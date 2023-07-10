@@ -103,7 +103,7 @@ header .container{
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    width: 100%;
+    width: 50%;
     height: 0;
     overflow: hidden;
     transition: var(--trans);
@@ -128,10 +128,24 @@ header .container{
     letter-spacing: 2px;
     text-align: center;
 }
+
+
+
+.navbar-collapse li:hover {
+    background-color: black;
+}
+
+
 .navbar-collapse a{
     font-size: 1.15rem;
     font-weight: bold;
+    border: inherit;
 }
+
+.navbar-collapse a:hover {
+    color: white;
+}
+
 .cart{
     justify-self: flex-end;
     padding-right: 8px;
